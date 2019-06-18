@@ -40,8 +40,8 @@ public class Employee {
         return id;
     }
 
-    public void print() {
-        System.out.println(getName(), getSurname(), getId());
-    }
+//    public void print() {
+//        System.out.println(getName(), getSurname(), getId());
+//    }
 
 }

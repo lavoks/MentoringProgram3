@@ -1,4 +1,4 @@
-package com.homeTaskLecture4;
+package com.homeTaskLecture4.myneTesting;
 
 
 public class Testing {
