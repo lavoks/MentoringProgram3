@@ -1,4 +1,4 @@
-package com.homeTaskLecture4;
+package com.Test.patternObserver;
 
 
 public class Testing {

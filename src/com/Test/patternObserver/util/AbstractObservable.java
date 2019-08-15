@@ -1,7 +1,7 @@
-package com.patternObserver.util;
+package com.Test.patternObserver.util;
 
-import com.patternObserver.interfaces.Observable;
-import com.patternObserver.interfaces.Observer;
+import com.Test.patternObserver.interfaces.Observable;
+import com.Test.patternObserver.interfaces.Observer;
 
 public abstract class AbstractObservable implements Observable {
 

@@ -1,6 +1,6 @@
-package com.patternObserver.test;
+package com.Test.patternObserver.test;
 
-import com.patternObserver.interfaces.Observer;
+import com.Test.patternObserver.interfaces.Observer;
 
 public class ObserverOne implements Observer {
 

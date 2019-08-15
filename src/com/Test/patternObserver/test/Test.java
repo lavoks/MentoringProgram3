@@ -1,4 +1,4 @@
-package com.patternObserver.test;
+package com.Test.patternObserver.test;
 
 public class Test {
     public static void main(String[] args) {

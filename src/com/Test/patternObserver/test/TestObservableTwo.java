@@ -1,6 +1,6 @@
-package com.patternObserver.test;
+package com.Test.patternObserver.test;
 
-import com.patternObserver.util.AbstractObservable;
+import com.Test.patternObserver.util.AbstractObservable;
 
 public class TestObservableTwo extends AbstractObservable {
 

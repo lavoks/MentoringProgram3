@@ -1,4 +1,4 @@
-package com.patternObserver.interfaces;
+package com.Test.patternObserver.interfaces;
 
 public interface Observable {
     void subscribe(Observer observer);
