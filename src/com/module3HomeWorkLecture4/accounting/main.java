@@ -1,4 +1,4 @@
-package com.homeTaskLecture4.accounting;
+package com.module3HomeWorkLecture4.accounting;
 
 public class main {
     public static void main(String[] args) {

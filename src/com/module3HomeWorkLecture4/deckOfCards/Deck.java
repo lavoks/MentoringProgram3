@@ -1,4 +1,4 @@
-package com.homeTaskLecture4.deckOfCards;
+package com.module3HomeWorkLecture4.deckOfCards;
 
 public class Deck {
 

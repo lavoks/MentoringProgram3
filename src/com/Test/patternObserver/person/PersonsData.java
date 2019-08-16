@@ -1,4 +1,4 @@
-package com.person;
+package com.Test.patternObserver.person;
 
 public class PersonsData {
     private String name;

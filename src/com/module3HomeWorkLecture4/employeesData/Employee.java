@@ -1,4 +1,4 @@
-package com.homeTaskLecture4.employeesData;
+package com.module3HomeWorkLecture4.employeesData;
 
 import java.util.Random;
 
