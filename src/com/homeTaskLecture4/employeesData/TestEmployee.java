@@ -2,9 +2,12 @@ package com.homeTaskLecture4.employeesData;
 
 public class TestEmployee {
     public static void main(String[] args) {
-        Employee employeeOne = new Employee(11);
-        Employee employeeTwo = new Employee("Oksana", "Yakym", 19);
+        Employee employeeOne = new Employee();
+        Employee employeeTwo = new Employee("Gigi", "Hadid");
         employeeOne.print();
         employeeTwo.print();
+        employeeOne.setName("Anjelina");
+        employeeOne.setSurname("Jolie");
+        employeeOne.print();
     }
 }

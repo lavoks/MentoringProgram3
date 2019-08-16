@@ -9,5 +9,8 @@ public class MainPerson {
         personNumberOne.print();
         PersonsData personNumberTwo = new PersonsData("vlad","yak", "mail");
         personNumberTwo.print();
+
+        personNumberTwo.getEmail();
+        personNumberTwo.print();
     }
 }

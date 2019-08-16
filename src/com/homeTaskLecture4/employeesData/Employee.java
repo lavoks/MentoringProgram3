@@ -3,20 +3,36 @@ package com.homeTaskLecture4.employeesData;
 import java.util.Random;
 
 public class Employee {
-    public String name;
-    public String surname;
+    private String name;
+    private String surname;
+    private int id;
 
-    Random random = new Random();
-    public int id;
-    public Employee(String name, String surname, int id) {
+
+    public Employee(String name, String surname) {
         this.name = name;
         this.surname = surname;
-        this.id = id;
-        id = random.nextInt(1000);
+        this.id = generateRandomId();
     }
 
-    public Employee(int id) {
-        this.id = id;
+    public Employee() {
+        this.id = generateRandomId();
+    }
+
+    private int generateRandomId() {
+        Random random = new Random();
+        return random.nextInt(1000);
+    }
+
+    private String getName() {
+        return name;
+    }
+
+    private String getSurname() {
+        return surname;
+    }
+
+    private int getId() {
+        return id;
     }
 
     public void setName(String name) {
@@ -32,7 +48,7 @@ public class Employee {
     }
 
     public void print() {
-        System.out.println("Employee name " + name + " surname " + surname + " id " + id);
+        System.out.println("Employee name " + getName() + " surname " + getSurname() + " id " + getId());
     }
 
 
