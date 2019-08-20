@@ -5,7 +5,11 @@ public class TriangleDescribtion {
         Point A = new Point(1, 1);
         Point B = new Point(2,2);
         Point C = new Point(3,2);
-        System.out.println("Area " + TriangleSquareFormula.triangleSquare(A, B, C));
+        try {
+            System.out.println("Area " + TriangleSquareFormula.triangleSquare(A, B, C));
+        } catch (TriangleExeption triangleExeption) {
+            triangleExeption.printStackTrace();
+        }
     }
 
 }
